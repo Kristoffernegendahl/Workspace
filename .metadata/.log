@@ -1,0 +1,976 @@
+!SESSION 2014-07-16 14:40:50.911 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.python.pydev.shared_core 1 1 2014-07-16 14:45:16.701
+!MESSAGE Information about process of adding new interpreter:
+- Opening dialog to request executable (or jar).
+- Chosen interpreter (name and file):'Tuple [ironPython 2.6 -- C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe]
+- Ok, file is non-null. Getting info on:C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe
+- Beggining task:Getting libs totalWork:100
+- Setting task name:Mounting executable string...
+- Setting task name:Executing:  "C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe" -X:Frames "C:\Program Files\Eclipse4\eclipse\plugins\org.python.pydev_3.6.0.201406232321\pysrc\interpreterInfo.py"
+- Setting task name:Making pythonpath environment... "C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe" -X:Frames "C:\Program Files\Eclipse4\eclipse\plugins\org.python.pydev_3.6.0.201406232321\pysrc\interpreterInfo.py"
+- Setting task name:Making exec... "C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe" -X:Frames "C:\Program Files\Eclipse4\eclipse\plugins\org.python.pydev_3.6.0.201406232321\pysrc\interpreterInfo.py"
+- Setting task name:Reading output...
+- Setting task name:Waiting for process to finish.
+- Success getting the info. Result:<xml>
+<name>ironPython 2.6</name>
+<version>2.6</version>
+<executable>C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe</executable>
+<lib>.</lib>
+<lib>C:\Program Files\Eclipse4\eclipse</lib>
+<lib>C:\Program Files\Eclipse4\eclipse</lib>
+<lib>C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\Lib</lib>
+<lib>C:\Program Files (x86)\IronPython 2.6 for .NET 4.0</lib>
+<lib>C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\lib\site-packages</lib>
+<forced_lib>IEHost.Execute</forced_lib>
+<forced_lib>Microsoft</forced_lib>
+<forced_lib>Microsoft.Aspnet.Snapin</forced_lib>
+<forced_lib>Microsoft.Build.BuildEngine</forced_lib>
+<forced_lib>Microsoft.Build.Conversion</forced_lib>
+<forced_lib>Microsoft.Build.Framework</forced_lib>
+<forced_lib>Microsoft.Build.Tasks</forced_lib>
+<forced_lib>Microsoft.Build.Tasks.Deployment.Bootstrapper</forced_lib>
+<forced_lib>Microsoft.Build.Tasks.Deployment.ManifestUtilities</forced_lib>
+<forced_lib>Microsoft.Build.Tasks.Hosting</forced_lib>
+<forced_lib>Microsoft.Build.Tasks.Windows</forced_lib>
+<forced_lib>Microsoft.Build.Utilities</forced_lib>
+<forced_lib>Microsoft.CLRAdmin</forced_lib>
+<forced_lib>Microsoft.CSharp</forced_lib>
+<forced_lib>Microsoft.Data.Entity.Build.Tasks</forced_lib>
+<forced_lib>Microsoft.IE</forced_lib>
+<forced_lib>Microsoft.Ink</forced_lib>
+<forced_lib>Microsoft.Ink.TextInput</forced_lib>
+<forced_lib>Microsoft.JScript</forced_lib>
+<forced_lib>Microsoft.JScript.Vsa</forced_lib>
+<forced_lib>Microsoft.ManagementConsole</forced_lib>
+<forced_lib>Microsoft.ManagementConsole.Advanced</forced_lib>
+<forced_lib>Microsoft.ManagementConsole.Internal</forced_lib>
+<forced_lib>Microsoft.ServiceModel.Channels.Mail</forced_lib>
+<forced_lib>Microsoft.ServiceModel.Channels.Mail.ExchangeWebService</forced_lib>
+<forced_lib>Microsoft.ServiceModel.Channels.Mail.ExchangeWebService.Exchange2007</forced_lib>
+<forced_lib>Microsoft.ServiceModel.Channels.Mail.WindowsMobile</forced_lib>
+<forced_lib>Microsoft.SqlServer.Server</forced_lib>
+<forced_lib>Microsoft.StylusInput</forced_lib>
+<forced_lib>Microsoft.StylusInput.PluginData</forced_lib>
+<forced_lib>Microsoft.VisualBasic</forced_lib>
+<forced_lib>Microsoft.VisualBasic.ApplicationServices</forced_lib>
+<forced_lib>Microsoft.VisualBasic.Compatibility.VB6</forced_lib>
+<forced_lib>Microsoft.VisualBasic.CompilerServices</forced_lib>
+<forced_lib>Microsoft.VisualBasic.Devices</forced_lib>
+<forced_lib>Microsoft.VisualBasic.FileIO</forced_lib>
+<forced_lib>Microsoft.VisualBasic.Logging</forced_lib>
+<forced_lib>Microsoft.VisualBasic.MyServices</forced_lib>
+<forced_lib>Microsoft.VisualBasic.MyServices.Internal</forced_lib>
+<forced_lib>Microsoft.VisualBasic.Vsa</forced_lib>
+<forced_lib>Microsoft.VisualC</forced_lib>
+<forced_lib>Microsoft.VisualC.StlClr</forced_lib>
+<forced_lib>Microsoft.VisualC.StlClr.Generic</forced_lib>
+<forced_lib>Microsoft.Vsa</forced_lib>
+<forced_lib>Microsoft.Vsa.Vb.CodeDOM</forced_lib>
+<forced_lib>Microsoft.Win32</forced_lib>
+<forced_lib>Microsoft.Win32.SafeHandles</forced_lib>
+<forced_lib>Microsoft.Windows.Themes</forced_lib>
+<forced_lib>Microsoft.WindowsCE.Forms</forced_lib>
+<forced_lib>Microsoft.WindowsMobile.DirectX</forced_lib>
+<forced_lib>Microsoft.WindowsMobile.DirectX.Direct3D</forced_lib>
+<forced_lib>Microsoft_VsaVb</forced_lib>
+<forced_lib>RegCode</forced_lib>
+<forced_lib>System</forced_lib>
+<forced_lib>System.AddIn</forced_lib>
+<forced_lib>System.AddIn.Contract</forced_lib>
+<forced_lib>System.AddIn.Contract.Automation</forced_lib>
+<forced_lib>System.AddIn.Contract.Collections</forced_lib>
+<forced_lib>System.AddIn.Hosting</forced_lib>
+<forced_lib>System.AddIn.Pipeline</forced_lib>
+<forced_lib>System.CodeDom</forced_lib>
+<forced_lib>System.CodeDom.Compiler</forced_lib>
+<forced_lib>System.Collections</forced_lib>
+<forced_lib>System.Collections.Generic</forced_lib>
+<forced_lib>System.Collections.ObjectModel</forced_lib>
+<forced_lib>System.Collections.Specialized</forced_lib>
+<forced_lib>System.ComponentModel</forced_lib>
+<forced_lib>System.ComponentModel.DataAnnotations</forced_lib>
+<forced_lib>System.ComponentModel.Design</forced_lib>
+<forced_lib>System.ComponentModel.Design.Data</forced_lib>
+<forced_lib>System.ComponentModel.Design.Serialization</forced_lib>
+<forced_lib>System.Configuration</forced_lib>
+<forced_lib>System.Configuration.Assemblies</forced_lib>
+<forced_lib>System.Configuration.Install</forced_lib>
+<forced_lib>System.Configuration.Internal</forced_lib>
+<forced_lib>System.Configuration.Provider</forced_lib>
+<forced_lib>System.Data</forced_lib>
+<forced_lib>System.Data.Common</forced_lib>
+<forced_lib>System.Data.Common.CommandTrees</forced_lib>
+<forced_lib>System.Data.Design</forced_lib>
+<forced_lib>System.Data.Entity.Design</forced_lib>
+<forced_lib>System.Data.Entity.Design.AspNet</forced_lib>
+<forced_lib>System.Data.EntityClient</forced_lib>
+<forced_lib>System.Data.Linq</forced_lib>
+<forced_lib>System.Data.Linq.Mapping</forced_lib>
+<forced_lib>System.Data.Linq.SqlClient</forced_lib>
+<forced_lib>System.Data.Linq.SqlClient.Implementation</forced_lib>
+<forced_lib>System.Data.Mapping</forced_lib>
+<forced_lib>System.Data.Metadata.Edm</forced_lib>
+<forced_lib>System.Data.Objects</forced_lib>
+<forced_lib>System.Data.Objects.DataClasses</forced_lib>
+<forced_lib>System.Data.Odbc</forced_lib>
+<forced_lib>System.Data.OleDb</forced_lib>
+<forced_lib>System.Data.OracleClient</forced_lib>
+<forced_lib>System.Data.Services</forced_lib>
+<forced_lib>System.Data.Services.Client</forced_lib>
+<forced_lib>System.Data.Services.Common</forced_lib>
+<forced_lib>System.Data.Services.Design</forced_lib>
+<forced_lib>System.Data.Services.Internal</forced_lib>
+<forced_lib>System.Data.Sql</forced_lib>
+<forced_lib>System.Data.SqlClient</forced_lib>
+<forced_lib>System.Data.SqlTypes</forced_lib>
+<forced_lib>System.Deployment.Application</forced_lib>
+<forced_lib>System.Deployment.Internal</forced_lib>
+<forced_lib>System.Diagnostics</forced_lib>
+<forced_lib>System.Diagnostics.CodeAnalysis</forced_lib>
+<forced_lib>System.Diagnostics.Design</forced_lib>
+<forced_lib>System.Diagnostics.Eventing</forced_lib>
+<forced_lib>System.Diagnostics.Eventing.Reader</forced_lib>
+<forced_lib>System.Diagnostics.PerformanceData</forced_lib>
+<forced_lib>System.Diagnostics.SymbolStore</forced_lib>
+<forced_lib>System.DirectoryServices</forced_lib>
+<forced_lib>System.DirectoryServices.AccountManagement</forced_lib>
+<forced_lib>System.DirectoryServices.ActiveDirectory</forced_lib>
+<forced_lib>System.DirectoryServices.Protocols</forced_lib>
+<forced_lib>System.Drawing</forced_lib>
+<forced_lib>System.Drawing.Design</forced_lib>
+<forced_lib>System.Drawing.Drawing2D</forced_lib>
+<forced_lib>System.Drawing.Imaging</forced_lib>
+<forced_lib>System.Drawing.Printing</forced_lib>
+<forced_lib>System.Drawing.Text</forced_lib>
+<forced_lib>System.EnterpriseServices</forced_lib>
+<forced_lib>System.EnterpriseServices.CompensatingResourceManager</forced_lib>
+<forced_lib>System.EnterpriseServices.Internal</forced_lib>
+<forced_lib>System.Globalization</forced_lib>
+<forced_lib>System.IO</forced_lib>
+<forced_lib>System.IO.Compression</forced_lib>
+<forced_lib>System.IO.IsolatedStorage</forced_lib>
+<forced_lib>System.IO.Log</forced_lib>
+<forced_lib>System.IO.Packaging</forced_lib>
+<forced_lib>System.IO.Pipes</forced_lib>
+<forced_lib>System.IO.Ports</forced_lib>
+<forced_lib>System.IdentityModel.Claims</forced_lib>
+<forced_lib>System.IdentityModel.Policy</forced_lib>
+<forced_lib>System.IdentityModel.Selectors</forced_lib>
+<forced_lib>System.IdentityModel.Tokens</forced_lib>
+<forced_lib>System.Linq</forced_lib>
+<forced_lib>System.Linq.Expressions</forced_lib>
+<forced_lib>System.Management</forced_lib>
+<forced_lib>System.Management.Instrumentation</forced_lib>
+<forced_lib>System.Media</forced_lib>
+<forced_lib>System.Messaging</forced_lib>
+<forced_lib>System.Messaging.Design</forced_lib>
+<forced_lib>System.Net</forced_lib>
+<forced_lib>System.Net.Cache</forced_lib>
+<forced_lib>System.Net.Configuration</forced_lib>
+<forced_lib>System.Net.Mail</forced_lib>
+<forced_lib>System.Net.Mime</forced_lib>
+<forced_lib>System.Net.NetworkInformation</forced_lib>
+<forced_lib>System.Net.PeerToPeer</forced_lib>
+<forced_lib>System.Net.PeerToPeer.Collaboration</forced_lib>
+<forced_lib>System.Net.Security</forced_lib>
+<forced_lib>System.Net.Sockets</forced_lib>
+<forced_lib>System.Printing</forced_lib>
+<forced_lib>System.Printing.IndexedProperties</forced_lib>
+<forced_lib>System.Printing.Interop</forced_lib>
+<forced_lib>System.Reflection</forced_lib>
+<forced_lib>System.Reflection.Emit</forced_lib>
+<forced_lib>System.Resources</forced_lib>
+<forced_lib>System.Resources.Tools</forced_lib>
+<forced_lib>System.Runtime</forced_lib>
+<forced_lib>System.Runtime.CompilerServices</forced_lib>
+<forced_lib>System.Runtime.ConstrainedExecution</forced_lib>
+<forced_lib>System.Runtime.Hosting</forced_lib>
+<forced_lib>System.Runtime.InteropServices</forced_lib>
+<forced_lib>System.Runtime.InteropServices.ComTypes</forced_lib>
+<forced_lib>System.Runtime.InteropServices.CustomMarshalers</forced_lib>
+<forced_lib>System.Runtime.InteropServices.Expando</forced_lib>
+<forced_lib>System.Runtime.Remoting</forced_lib>
+<forced_lib>System.Runtime.Remoting.Activation</forced_lib>
+<forced_lib>System.Runtime.Remoting.Channels</forced_lib>
+<forced_lib>System.Runtime.Remoting.Channels.Http</forced_lib>
+<forced_lib>System.Runtime.Remoting.Channels.Ipc</forced_lib>
+<forced_lib>System.Runtime.Remoting.Channels.Tcp</forced_lib>
+<forced_lib>System.Runtime.Remoting.Contexts</forced_lib>
+<forced_lib>System.Runtime.Remoting.Lifetime</forced_lib>
+<forced_lib>System.Runtime.Remoting.Messaging</forced_lib>
+<forced_lib>System.Runtime.Remoting.Metadata</forced_lib>
+<forced_lib>System.Runtime.Remoting.MetadataServices</forced_lib>
+<forced_lib>System.Runtime.Remoting.Proxies</forced_lib>
+<forced_lib>System.Runtime.Remoting.Services</forced_lib>
+<forced_lib>System.Runtime.Serialization</forced_lib>
+<forced_lib>System.Runtime.Serialization.Configuration</forced_lib>
+<forced_lib>System.Runtime.Serialization.Formatters</forced_lib>
+<forced_lib>System.Runtime.Serialization.Formatters.Binary</forced_lib>
+<forced_lib>System.Runtime.Serialization.Formatters.Soap</forced_lib>
+<forced_lib>System.Runtime.Serialization.Json</forced_lib>
+<forced_lib>System.Runtime.Versioning</forced_lib>
+<forced_lib>System.Security</forced_lib>
+<forced_lib>System.Security.AccessControl</forced_lib>
+<forced_lib>System.Security.Authentication</forced_lib>
+<forced_lib>System.Security.Authentication.ExtendedProtection</forced_lib>
+<forced_lib>System.Security.Authentication.ExtendedProtection.Configuration</forced_lib>
+<forced_lib>System.Security.Cryptography</forced_lib>
+<forced_lib>System.Security.Cryptography.Pkcs</forced_lib>
+<forced_lib>System.Security.Cryptography.X509Certificates</forced_lib>
+<forced_lib>System.Security.Cryptography.Xml</forced_lib>
+<forced_lib>System.Security.Permissions</forced_lib>
+<forced_lib>System.Security.Policy</forced_lib>
+<forced_lib>System.Security.Principal</forced_lib>
+<forced_lib>System.Security.RightsManagement</forced_lib>
+<forced_lib>System.ServiceModel</forced_lib>
+<forced_lib>System.ServiceModel.Activation</forced_lib>
+<forced_lib>System.ServiceModel.Activation.Configuration</forced_lib>
+<forced_lib>System.ServiceModel.Channels</forced_lib>
+<forced_lib>System.ServiceModel.ComIntegration</forced_lib>
+<forced_lib>System.ServiceModel.Configuration</forced_lib>
+<forced_lib>System.ServiceModel.Description</forced_lib>
+<forced_lib>System.ServiceModel.Diagnostics</forced_lib>
+<forced_lib>System.ServiceModel.Dispatcher</forced_lib>
+<forced_lib>System.ServiceModel.Install.Configuration</forced_lib>
+<forced_lib>System.ServiceModel.Internal</forced_lib>
+<forced_lib>System.ServiceModel.MsmqIntegration</forced_lib>
+<forced_lib>System.ServiceModel.PeerResolvers</forced_lib>
+<forced_lib>System.ServiceModel.Persistence</forced_lib>
+<forced_lib>System.ServiceModel.Security</forced_lib>
+<forced_lib>System.ServiceModel.Security.Tokens</forced_lib>
+<forced_lib>System.ServiceModel.Syndication</forced_lib>
+<forced_lib>System.ServiceModel.Web</forced_lib>
+<forced_lib>System.ServiceProcess</forced_lib>
+<forced_lib>System.ServiceProcess.Design</forced_lib>
+<forced_lib>System.Speech.AudioFormat</forced_lib>
+<forced_lib>System.Speech.Recognition</forced_lib>
+<forced_lib>System.Speech.Recognition.SrgsGrammar</forced_lib>
+<forced_lib>System.Speech.Synthesis</forced_lib>
+<forced_lib>System.Speech.Synthesis.TtsEngine</forced_lib>
+<forced_lib>System.Text</forced_lib>
+<forced_lib>System.Text.RegularExpressions</forced_lib>
+<forced_lib>System.Threading</forced_lib>
+<forced_lib>System.Timers</forced_lib>
+<forced_lib>System.Transactions</forced_lib>
+<forced_lib>System.Transactions.Configuration</forced_lib>
+<forced_lib>System.Web</forced_lib>
+<forced_lib>System.Web.ApplicationServices</forced_lib>
+<forced_lib>System.Web.Caching</forced_lib>
+<forced_lib>System.Web.ClientServices</forced_lib>
+<forced_lib>System.Web.ClientServices.Providers</forced_lib>
+<forced_lib>System.Web.Compilation</forced_lib>
+<forced_lib>System.Web.Configuration</forced_lib>
+<forced_lib>System.Web.Configuration.Internal</forced_lib>
+<forced_lib>System.Web.DynamicData</forced_lib>
+<forced_lib>System.Web.DynamicData.Design</forced_lib>
+<forced_lib>System.Web.DynamicData.ModelProviders</forced_lib>
+<forced_lib>System.Web.Handlers</forced_lib>
+<forced_lib>System.Web.Hosting</forced_lib>
+<forced_lib>System.Web.Mail</forced_lib>
+<forced_lib>System.Web.Management</forced_lib>
+<forced_lib>System.Web.Mobile</forced_lib>
+<forced_lib>System.Web.Profile</forced_lib>
+<forced_lib>System.Web.Query.Dynamic</forced_lib>
+<forced_lib>System.Web.RegularExpressions</forced_lib>
+<forced_lib>System.Web.Routing</forced_lib>
+<forced_lib>System.Web.Script.Serialization</forced_lib>
+<forced_lib>System.Web.Script.Services</forced_lib>
+<forced_lib>System.Web.Security</forced_lib>
+<forced_lib>System.Web.Services</forced_lib>
+<forced_lib>System.Web.Services.Configuration</forced_lib>
+<forced_lib>System.Web.Services.Description</forced_lib>
+<forced_lib>System.Web.Services.Discovery</forced_lib>
+<forced_lib>System.Web.Services.Protocols</forced_lib>
+<forced_lib>System.Web.SessionState</forced_lib>
+<forced_lib>System.Web.UI</forced_lib>
+<forced_lib>System.Web.UI.Adapters</forced_lib>
+<forced_lib>System.Web.UI.Design</forced_lib>
+<forced_lib>System.Web.UI.Design.MobileControls</forced_lib>
+<forced_lib>System.Web.UI.Design.MobileControls.Converters</forced_lib>
+<forced_lib>System.Web.UI.Design.WebControls</forced_lib>
+<forced_lib>System.Web.UI.Design.WebControls.WebParts</forced_lib>
+<forced_lib>System.Web.UI.MobileControls</forced_lib>
+<forced_lib>System.Web.UI.MobileControls.Adapters</forced_lib>
+<forced_lib>System.Web.UI.MobileControls.Adapters.XhtmlAdapters</forced_lib>
+<forced_lib>System.Web.UI.WebControls</forced_lib>
+<forced_lib>System.Web.UI.WebControls.Adapters</forced_lib>
+<forced_lib>System.Web.UI.WebControls.WebParts</forced_lib>
+<forced_lib>System.Web.Util</forced_lib>
+<forced_lib>System.Windows</forced_lib>
+<forced_lib>System.Windows.Annotations</forced_lib>
+<forced_lib>System.Windows.Annotations.Storage</forced_lib>
+<forced_lib>System.Windows.Automation</forced_lib>
+<forced_lib>System.Windows.Automation.Peers</forced_lib>
+<forced_lib>System.Windows.Automation.Provider</forced_lib>
+<forced_lib>System.Windows.Automation.Text</forced_lib>
+<forced_lib>System.Windows.Controls</forced_lib>
+<forced_lib>System.Windows.Controls.Primitives</forced_lib>
+<forced_lib>System.Windows.Converters</forced_lib>
+<forced_lib>System.Windows.Data</forced_lib>
+<forced_lib>System.Windows.Documents</forced_lib>
+<forced_lib>System.Windows.Documents.Serialization</forced_lib>
+<forced_lib>System.Windows.Forms</forced_lib>
+<forced_lib>System.Windows.Forms.ComponentModel.Com2Interop</forced_lib>
+<forced_lib>System.Windows.Forms.Design</forced_lib>
+<forced_lib>System.Windows.Forms.Design.Behavior</forced_lib>
+<forced_lib>System.Windows.Forms.Integration</forced_lib>
+<forced_lib>System.Windows.Forms.Layout</forced_lib>
+<forced_lib>System.Windows.Forms.PropertyGridInternal</forced_lib>
+<forced_lib>System.Windows.Forms.VisualStyles</forced_lib>
+<forced_lib>System.Windows.Ink</forced_lib>
+<forced_lib>System.Windows.Ink.AnalysisCore</forced_lib>
+<forced_lib>System.Windows.Input</forced_lib>
+<forced_lib>System.Windows.Input.StylusPlugIns</forced_lib>
+<forced_lib>System.Windows.Interop</forced_lib>
+<forced_lib>System.Windows.Markup</forced_lib>
+<forced_lib>System.Windows.Markup.Localizer</forced_lib>
+<forced_lib>System.Windows.Markup.Primitives</forced_lib>
+<forced_lib>System.Windows.Media</forced_lib>
+<forced_lib>System.Windows.Media.Animation</forced_lib>
+<forced_lib>System.Windows.Media.Converters</forced_lib>
+<forced_lib>System.Windows.Media.Effects</forced_lib>
+<forced_lib>System.Windows.Media.Imaging</forced_lib>
+<forced_lib>System.Windows.Media.Media3D</forced_lib>
+<forced_lib>System.Windows.Media.Media3D.Converters</forced_lib>
+<forced_lib>System.Windows.Media.TextFormatting</forced_lib>
+<forced_lib>System.Windows.Navigation</forced_lib>
+<forced_lib>System.Windows.Resources</forced_lib>
+<forced_lib>System.Windows.Shapes</forced_lib>
+<forced_lib>System.Windows.Threading</forced_lib>
+<forced_lib>System.Windows.Xps</forced_lib>
+<forced_lib>System.Windows.Xps.Packaging</forced_lib>
+<forced_lib>System.Windows.Xps.Serialization</forced_lib>
+<forced_lib>System.Workflow.Activities</forced_lib>
+<forced_lib>System.Workflow.Activities.Configuration</forced_lib>
+<forced_lib>System.Workflow.Activities.Rules</forced_lib>
+<forced_lib>System.Workflow.Activities.Rules.Design</forced_lib>
+<forced_lib>System.Workflow.ComponentModel</forced_lib>
+<forced_lib>System.Workflow.ComponentModel.Compiler</forced_lib>
+<forced_lib>System.Workflow.ComponentModel.Design</forced_lib>
+<forced_lib>System.Workflow.ComponentModel.Serialization</forced_lib>
+<forced_lib>System.Workflow.Runtime</forced_lib>
+<forced_lib>System.Workflow.Runtime.Configuration</forced_lib>
+<forced_lib>System.Workflow.Runtime.DebugEngine</forced_lib>
+<forced_lib>System.Workflow.Runtime.Hosting</forced_lib>
+<forced_lib>System.Workflow.Runtime.Tracking</forced_lib>
+<forced_lib>System.Xml</forced_lib>
+<forced_lib>System.Xml.Linq</forced_lib>
+<forced_lib>System.Xml.Schema</forced_lib>
+<forced_lib>System.Xml.Serialization</forced_lib>
+<forced_lib>System.Xml.Serialization.Advanced</forced_lib>
+<forced_lib>System.Xml.Serialization.Configuration</forced_lib>
+<forced_lib>System.Xml.XPath</forced_lib>
+<forced_lib>System.Xml.Xsl</forced_lib>
+<forced_lib>System.Xml.Xsl.Runtime</forced_lib>
+<forced_lib>UIAutomationClientsideProviders</forced_lib>
+<forced_lib>__builtin__</forced_lib>
+<forced_lib>_bytesio</forced_lib>
+<forced_lib>_codecs</forced_lib>
+<forced_lib>_collections</forced_lib>
+<forced_lib>_ctypes</forced_lib>
+<forced_lib>_ctypes_test</forced_lib>
+<forced_lib>_fileio</forced_lib>
+<forced_lib>_functools</forced_lib>
+<forced_lib>_heapq</forced_lib>
+<forced_lib>_locale</forced_lib>
+<forced_lib>_md5</forced_lib>
+<forced_lib>_random</forced_lib>
+<forced_lib>_sha</forced_lib>
+<forced_lib>_sha256</forced_lib>
+<forced_lib>_sha512</forced_lib>
+<forced_lib>_sre</forced_lib>
+<forced_lib>_ssl</forced_lib>
+<forced_lib>_struct</forced_lib>
+<forced_lib>_warnings</forced_lib>
+<forced_lib>_weakref</forced_lib>
+<forced_lib>_winreg</forced_lib>
+<forced_lib>array</forced_lib>
+<forced_lib>binascii</forced_lib>
+<forced_lib>cPickle</forced_lib>
+<forced_lib>cStringIO</forced_lib>
+<forced_lib>clr</forced_lib>
+<forced_lib>cmath</forced_lib>
+<forced_lib>copy_reg</forced_lib>
+<forced_lib>datetime</forced_lib>
+<forced_lib>email</forced_lib>
+<forced_lib>errno</forced_lib>
+<forced_lib>exceptions</forced_lib>
+<forced_lib>future_builtins</forced_lib>
+<forced_lib>gc</forced_lib>
+<forced_lib>hashlib</forced_lib>
+<forced_lib>imp</forced_lib>
+<forced_lib>itertools</forced_lib>
+<forced_lib>marshal</forced_lib>
+<forced_lib>math</forced_lib>
+<forced_lib>nt</forced_lib>
+<forced_lib>operator</forced_lib>
+<forced_lib>os</forced_lib>
+<forced_lib>os.path</forced_lib>
+<forced_lib>pytest</forced_lib>
+<forced_lib>re</forced_lib>
+<forced_lib>select</forced_lib>
+<forced_lib>socket</forced_lib>
+<forced_lib>sys</forced_lib>
+<forced_lib>thread</forced_lib>
+<forced_lib>time</forced_lib>
+<forced_lib>xxsubtype</forced_lib>
+</xml>
+
+!STACK 0
+java.lang.RuntimeException: Information about process of adding new interpreter:
+- Opening dialog to request executable (or jar).
+- Chosen interpreter (name and file):'Tuple [ironPython 2.6 -- C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe]
+- Ok, file is non-null. Getting info on:C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe
+- Beggining task:Getting libs totalWork:100
+- Setting task name:Mounting executable string...
+- Setting task name:Executing:  "C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe" -X:Frames "C:\Program Files\Eclipse4\eclipse\plugins\org.python.pydev_3.6.0.201406232321\pysrc\interpreterInfo.py"
+- Setting task name:Making pythonpath environment... "C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe" -X:Frames "C:\Program Files\Eclipse4\eclipse\plugins\org.python.pydev_3.6.0.201406232321\pysrc\interpreterInfo.py"
+- Setting task name:Making exec... "C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe" -X:Frames "C:\Program Files\Eclipse4\eclipse\plugins\org.python.pydev_3.6.0.201406232321\pysrc\interpreterInfo.py"
+- Setting task name:Reading output...
+- Setting task name:Waiting for process to finish.
+- Success getting the info. Result:<xml>
+<name>ironPython 2.6</name>
+<version>2.6</version>
+<executable>C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe</executable>
+<lib>.</lib>
+<lib>C:\Program Files\Eclipse4\eclipse</lib>
+<lib>C:\Program Files\Eclipse4\eclipse</lib>
+<lib>C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\Lib</lib>
+<lib>C:\Program Files (x86)\IronPython 2.6 for .NET 4.0</lib>
+<lib>C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\lib\site-packages</lib>
+<forced_lib>IEHost.Execute</forced_lib>
+<forced_lib>Microsoft</forced_lib>
+<forced_lib>Microsoft.Aspnet.Snapin</forced_lib>
+<forced_lib>Microsoft.Build.BuildEngine</forced_lib>
+<forced_lib>Microsoft.Build.Conversion</forced_lib>
+<forced_lib>Microsoft.Build.Framework</forced_lib>
+<forced_lib>Microsoft.Build.Tasks</forced_lib>
+<forced_lib>Microsoft.Build.Tasks.Deployment.Bootstrapper</forced_lib>
+<forced_lib>Microsoft.Build.Tasks.Deployment.ManifestUtilities</forced_lib>
+<forced_lib>Microsoft.Build.Tasks.Hosting</forced_lib>
+<forced_lib>Microsoft.Build.Tasks.Windows</forced_lib>
+<forced_lib>Microsoft.Build.Utilities</forced_lib>
+<forced_lib>Microsoft.CLRAdmin</forced_lib>
+<forced_lib>Microsoft.CSharp</forced_lib>
+<forced_lib>Microsoft.Data.Entity.Build.Tasks</forced_lib>
+<forced_lib>Microsoft.IE</forced_lib>
+<forced_lib>Microsoft.Ink</forced_lib>
+<forced_lib>Microsoft.Ink.TextInput</forced_lib>
+<forced_lib>Microsoft.JScript</forced_lib>
+<forced_lib>Microsoft.JScript.Vsa</forced_lib>
+<forced_lib>Microsoft.ManagementConsole</forced_lib>
+<forced_lib>Microsoft.ManagementConsole.Advanced</forced_lib>
+<forced_lib>Microsoft.ManagementConsole.Internal</forced_lib>
+<forced_lib>Microsoft.ServiceModel.Channels.Mail</forced_lib>
+<forced_lib>Microsoft.ServiceModel.Channels.Mail.ExchangeWebService</forced_lib>
+<forced_lib>Microsoft.ServiceModel.Channels.Mail.ExchangeWebService.Exchange2007</forced_lib>
+<forced_lib>Microsoft.ServiceModel.Channels.Mail.WindowsMobile</forced_lib>
+<forced_lib>Microsoft.SqlServer.Server</forced_lib>
+<forced_lib>Microsoft.StylusInput</forced_lib>
+<forced_lib>Microsoft.StylusInput.PluginData</forced_lib>
+<forced_lib>Microsoft.VisualBasic</forced_lib>
+<forced_lib>Microsoft.VisualBasic.ApplicationServices</forced_lib>
+<forced_lib>Microsoft.VisualBasic.Compatibility.VB6</forced_lib>
+<forced_lib>Microsoft.VisualBasic.CompilerServices</forced_lib>
+<forced_lib>Microsoft.VisualBasic.Devices</forced_lib>
+<forced_lib>Microsoft.VisualBasic.FileIO</forced_lib>
+<forced_lib>Microsoft.VisualBasic.Logging</forced_lib>
+<forced_lib>Microsoft.VisualBasic.MyServices</forced_lib>
+<forced_lib>Microsoft.VisualBasic.MyServices.Internal</forced_lib>
+<forced_lib>Microsoft.VisualBasic.Vsa</forced_lib>
+<forced_lib>Microsoft.VisualC</forced_lib>
+<forced_lib>Microsoft.VisualC.StlClr</forced_lib>
+<forced_lib>Microsoft.VisualC.StlClr.Generic</forced_lib>
+<forced_lib>Microsoft.Vsa</forced_lib>
+<forced_lib>Microsoft.Vsa.Vb.CodeDOM</forced_lib>
+<forced_lib>Microsoft.Win32</forced_lib>
+<forced_lib>Microsoft.Win32.SafeHandles</forced_lib>
+<forced_lib>Microsoft.Windows.Themes</forced_lib>
+<forced_lib>Microsoft.WindowsCE.Forms</forced_lib>
+<forced_lib>Microsoft.WindowsMobile.DirectX</forced_lib>
+<forced_lib>Microsoft.WindowsMobile.DirectX.Direct3D</forced_lib>
+<forced_lib>Microsoft_VsaVb</forced_lib>
+<forced_lib>RegCode</forced_lib>
+<forced_lib>System</forced_lib>
+<forced_lib>System.AddIn</forced_lib>
+<forced_lib>System.AddIn.Contract</forced_lib>
+<forced_lib>System.AddIn.Contract.Automation</forced_lib>
+<forced_lib>System.AddIn.Contract.Collections</forced_lib>
+<forced_lib>System.AddIn.Hosting</forced_lib>
+<forced_lib>System.AddIn.Pipeline</forced_lib>
+<forced_lib>System.CodeDom</forced_lib>
+<forced_lib>System.CodeDom.Compiler</forced_lib>
+<forced_lib>System.Collections</forced_lib>
+<forced_lib>System.Collections.Generic</forced_lib>
+<forced_lib>System.Collections.ObjectModel</forced_lib>
+<forced_lib>System.Collections.Specialized</forced_lib>
+<forced_lib>System.ComponentModel</forced_lib>
+<forced_lib>System.ComponentModel.DataAnnotations</forced_lib>
+<forced_lib>System.ComponentModel.Design</forced_lib>
+<forced_lib>System.ComponentModel.Design.Data</forced_lib>
+<forced_lib>System.ComponentModel.Design.Serialization</forced_lib>
+<forced_lib>System.Configuration</forced_lib>
+<forced_lib>System.Configuration.Assemblies</forced_lib>
+<forced_lib>System.Configuration.Install</forced_lib>
+<forced_lib>System.Configuration.Internal</forced_lib>
+<forced_lib>System.Configuration.Provider</forced_lib>
+<forced_lib>System.Data</forced_lib>
+<forced_lib>System.Data.Common</forced_lib>
+<forced_lib>System.Data.Common.CommandTrees</forced_lib>
+<forced_lib>System.Data.Design</forced_lib>
+<forced_lib>System.Data.Entity.Design</forced_lib>
+<forced_lib>System.Data.Entity.Design.AspNet</forced_lib>
+<forced_lib>System.Data.EntityClient</forced_lib>
+<forced_lib>System.Data.Linq</forced_lib>
+<forced_lib>System.Data.Linq.Mapping</forced_lib>
+<forced_lib>System.Data.Linq.SqlClient</forced_lib>
+<forced_lib>System.Data.Linq.SqlClient.Implementation</forced_lib>
+<forced_lib>System.Data.Mapping</forced_lib>
+<forced_lib>System.Data.Metadata.Edm</forced_lib>
+<forced_lib>System.Data.Objects</forced_lib>
+<forced_lib>System.Data.Objects.DataClasses</forced_lib>
+<forced_lib>System.Data.Odbc</forced_lib>
+<forced_lib>System.Data.OleDb</forced_lib>
+<forced_lib>System.Data.OracleClient</forced_lib>
+<forced_lib>System.Data.Services</forced_lib>
+<forced_lib>System.Data.Services.Client</forced_lib>
+<forced_lib>System.Data.Services.Common</forced_lib>
+<forced_lib>System.Data.Services.Design</forced_lib>
+<forced_lib>System.Data.Services.Internal</forced_lib>
+<forced_lib>System.Data.Sql</forced_lib>
+<forced_lib>System.Data.SqlClient</forced_lib>
+<forced_lib>System.Data.SqlTypes</forced_lib>
+<forced_lib>System.Deployment.Application</forced_lib>
+<forced_lib>System.Deployment.Internal</forced_lib>
+<forced_lib>System.Diagnostics</forced_lib>
+<forced_lib>System.Diagnostics.CodeAnalysis</forced_lib>
+<forced_lib>System.Diagnostics.Design</forced_lib>
+<forced_lib>System.Diagnostics.Eventing</forced_lib>
+<forced_lib>System.Diagnostics.Eventing.Reader</forced_lib>
+<forced_lib>System.Diagnostics.PerformanceData</forced_lib>
+<forced_lib>System.Diagnostics.SymbolStore</forced_lib>
+<forced_lib>System.DirectoryServices</forced_lib>
+<forced_lib>System.DirectoryServices.AccountManagement</forced_lib>
+<forced_lib>System.DirectoryServices.ActiveDirectory</forced_lib>
+<forced_lib>System.DirectoryServices.Protocols</forced_lib>
+<forced_lib>System.Drawing</forced_lib>
+<forced_lib>System.Drawing.Design</forced_lib>
+<forced_lib>System.Drawing.Drawing2D</forced_lib>
+<forced_lib>System.Drawing.Imaging</forced_lib>
+<forced_lib>System.Drawing.Printing</forced_lib>
+<forced_lib>System.Drawing.Text</forced_lib>
+<forced_lib>System.EnterpriseServices</forced_lib>
+<forced_lib>System.EnterpriseServices.CompensatingResourceManager</forced_lib>
+<forced_lib>System.EnterpriseServices.Internal</forced_lib>
+<forced_lib>System.Globalization</forced_lib>
+<forced_lib>System.IO</forced_lib>
+<forced_lib>System.IO.Compression</forced_lib>
+<forced_lib>System.IO.IsolatedStorage</forced_lib>
+<forced_lib>System.IO.Log</forced_lib>
+<forced_lib>System.IO.Packaging</forced_lib>
+<forced_lib>System.IO.Pipes</forced_lib>
+<forced_lib>System.IO.Ports</forced_lib>
+<forced_lib>System.IdentityModel.Claims</forced_lib>
+<forced_lib>System.IdentityModel.Policy</forced_lib>
+<forced_lib>System.IdentityModel.Selectors</forced_lib>
+<forced_lib>System.IdentityModel.Tokens</forced_lib>
+<forced_lib>System.Linq</forced_lib>
+<forced_lib>System.Linq.Expressions</forced_lib>
+<forced_lib>System.Management</forced_lib>
+<forced_lib>System.Management.Instrumentation</forced_lib>
+<forced_lib>System.Media</forced_lib>
+<forced_lib>System.Messaging</forced_lib>
+<forced_lib>System.Messaging.Design</forced_lib>
+<forced_lib>System.Net</forced_lib>
+<forced_lib>System.Net.Cache</forced_lib>
+<forced_lib>System.Net.Configuration</forced_lib>
+<forced_lib>System.Net.Mail</forced_lib>
+<forced_lib>System.Net.Mime</forced_lib>
+<forced_lib>System.Net.NetworkInformation</forced_lib>
+<forced_lib>System.Net.PeerToPeer</forced_lib>
+<forced_lib>System.Net.PeerToPeer.Collaboration</forced_lib>
+<forced_lib>System.Net.Security</forced_lib>
+<forced_lib>System.Net.Sockets</forced_lib>
+<forced_lib>System.Printing</forced_lib>
+<forced_lib>System.Printing.IndexedProperties</forced_lib>
+<forced_lib>System.Printing.Interop</forced_lib>
+<forced_lib>System.Reflection</forced_lib>
+<forced_lib>System.Reflection.Emit</forced_lib>
+<forced_lib>System.Resources</forced_lib>
+<forced_lib>System.Resources.Tools</forced_lib>
+<forced_lib>System.Runtime</forced_lib>
+<forced_lib>System.Runtime.CompilerServices</forced_lib>
+<forced_lib>System.Runtime.ConstrainedExecution</forced_lib>
+<forced_lib>System.Runtime.Hosting</forced_lib>
+<forced_lib>System.Runtime.InteropServices</forced_lib>
+<forced_lib>System.Runtime.InteropServices.ComTypes</forced_lib>
+<forced_lib>System.Runtime.InteropServices.CustomMarshalers</forced_lib>
+<forced_lib>System.Runtime.InteropServices.Expando</forced_lib>
+<forced_lib>System.Runtime.Remoting</forced_lib>
+<forced_lib>System.Runtime.Remoting.Activation</forced_lib>
+<forced_lib>System.Runtime.Remoting.Channels</forced_lib>
+<forced_lib>System.Runtime.Remoting.Channels.Http</forced_lib>
+<forced_lib>System.Runtime.Remoting.Channels.Ipc</forced_lib>
+<forced_lib>System.Runtime.Remoting.Channels.Tcp</forced_lib>
+<forced_lib>System.Runtime.Remoting.Contexts</forced_lib>
+<forced_lib>System.Runtime.Remoting.Lifetime</forced_lib>
+<forced_lib>System.Runtime.Remoting.Messaging</forced_lib>
+<forced_lib>System.Runtime.Remoting.Metadata</forced_lib>
+<forced_lib>System.Runtime.Remoting.MetadataServices</forced_lib>
+<forced_lib>System.Runtime.Remoting.Proxies</forced_lib>
+<forced_lib>System.Runtime.Remoting.Services</forced_lib>
+<forced_lib>System.Runtime.Serialization</forced_lib>
+<forced_lib>System.Runtime.Serialization.Configuration</forced_lib>
+<forced_lib>System.Runtime.Serialization.Formatters</forced_lib>
+<forced_lib>System.Runtime.Serialization.Formatters.Binary</forced_lib>
+<forced_lib>System.Runtime.Serialization.Formatters.Soap</forced_lib>
+<forced_lib>System.Runtime.Serialization.Json</forced_lib>
+<forced_lib>System.Runtime.Versioning</forced_lib>
+<forced_lib>System.Security</forced_lib>
+<forced_lib>System.Security.AccessControl</forced_lib>
+<forced_lib>System.Security.Authentication</forced_lib>
+<forced_lib>System.Security.Authentication.ExtendedProtection</forced_lib>
+<forced_lib>System.Security.Authentication.ExtendedProtection.Configuration</forced_lib>
+<forced_lib>System.Security.Cryptography</forced_lib>
+<forced_lib>System.Security.Cryptography.Pkcs</forced_lib>
+<forced_lib>System.Security.Cryptography.X509Certificates</forced_lib>
+<forced_lib>System.Security.Cryptography.Xml</forced_lib>
+<forced_lib>System.Security.Permissions</forced_lib>
+<forced_lib>System.Security.Policy</forced_lib>
+<forced_lib>System.Security.Principal</forced_lib>
+<forced_lib>System.Security.RightsManagement</forced_lib>
+<forced_lib>System.ServiceModel</forced_lib>
+<forced_lib>System.ServiceModel.Activation</forced_lib>
+<forced_lib>System.ServiceModel.Activation.Configuration</forced_lib>
+<forced_lib>System.ServiceModel.Channels</forced_lib>
+<forced_lib>System.ServiceModel.ComIntegration</forced_lib>
+<forced_lib>System.ServiceModel.Configuration</forced_lib>
+<forced_lib>System.ServiceModel.Description</forced_lib>
+<forced_lib>System.ServiceModel.Diagnostics</forced_lib>
+<forced_lib>System.ServiceModel.Dispatcher</forced_lib>
+<forced_lib>System.ServiceModel.Install.Configuration</forced_lib>
+<forced_lib>System.ServiceModel.Internal</forced_lib>
+<forced_lib>System.ServiceModel.MsmqIntegration</forced_lib>
+<forced_lib>System.ServiceModel.PeerResolvers</forced_lib>
+<forced_lib>System.ServiceModel.Persistence</forced_lib>
+<forced_lib>System.ServiceModel.Security</forced_lib>
+<forced_lib>System.ServiceModel.Security.Tokens</forced_lib>
+<forced_lib>System.ServiceModel.Syndication</forced_lib>
+<forced_lib>System.ServiceModel.Web</forced_lib>
+<forced_lib>System.ServiceProcess</forced_lib>
+<forced_lib>System.ServiceProcess.Design</forced_lib>
+<forced_lib>System.Speech.AudioFormat</forced_lib>
+<forced_lib>System.Speech.Recognition</forced_lib>
+<forced_lib>System.Speech.Recognition.SrgsGrammar</forced_lib>
+<forced_lib>System.Speech.Synthesis</forced_lib>
+<forced_lib>System.Speech.Synthesis.TtsEngine</forced_lib>
+<forced_lib>System.Text</forced_lib>
+<forced_lib>System.Text.RegularExpressions</forced_lib>
+<forced_lib>System.Threading</forced_lib>
+<forced_lib>System.Timers</forced_lib>
+<forced_lib>System.Transactions</forced_lib>
+<forced_lib>System.Transactions.Configuration</forced_lib>
+<forced_lib>System.Web</forced_lib>
+<forced_lib>System.Web.ApplicationServices</forced_lib>
+<forced_lib>System.Web.Caching</forced_lib>
+<forced_lib>System.Web.ClientServices</forced_lib>
+<forced_lib>System.Web.ClientServices.Providers</forced_lib>
+<forced_lib>System.Web.Compilation</forced_lib>
+<forced_lib>System.Web.Configuration</forced_lib>
+<forced_lib>System.Web.Configuration.Internal</forced_lib>
+<forced_lib>System.Web.DynamicData</forced_lib>
+<forced_lib>System.Web.DynamicData.Design</forced_lib>
+<forced_lib>System.Web.DynamicData.ModelProviders</forced_lib>
+<forced_lib>System.Web.Handlers</forced_lib>
+<forced_lib>System.Web.Hosting</forced_lib>
+<forced_lib>System.Web.Mail</forced_lib>
+<forced_lib>System.Web.Management</forced_lib>
+<forced_lib>System.Web.Mobile</forced_lib>
+<forced_lib>System.Web.Profile</forced_lib>
+<forced_lib>System.Web.Query.Dynamic</forced_lib>
+<forced_lib>System.Web.RegularExpressions</forced_lib>
+<forced_lib>System.Web.Routing</forced_lib>
+<forced_lib>System.Web.Script.Serialization</forced_lib>
+<forced_lib>System.Web.Script.Services</forced_lib>
+<forced_lib>System.Web.Security</forced_lib>
+<forced_lib>System.Web.Services</forced_lib>
+<forced_lib>System.Web.Services.Configuration</forced_lib>
+<forced_lib>System.Web.Services.Description</forced_lib>
+<forced_lib>System.Web.Services.Discovery</forced_lib>
+<forced_lib>System.Web.Services.Protocols</forced_lib>
+<forced_lib>System.Web.SessionState</forced_lib>
+<forced_lib>System.Web.UI</forced_lib>
+<forced_lib>System.Web.UI.Adapters</forced_lib>
+<forced_lib>System.Web.UI.Design</forced_lib>
+<forced_lib>System.Web.UI.Design.MobileControls</forced_lib>
+<forced_lib>System.Web.UI.Design.MobileControls.Converters</forced_lib>
+<forced_lib>System.Web.UI.Design.WebControls</forced_lib>
+<forced_lib>System.Web.UI.Design.WebControls.WebParts</forced_lib>
+<forced_lib>System.Web.UI.MobileControls</forced_lib>
+<forced_lib>System.Web.UI.MobileControls.Adapters</forced_lib>
+<forced_lib>System.Web.UI.MobileControls.Adapters.XhtmlAdapters</forced_lib>
+<forced_lib>System.Web.UI.WebControls</forced_lib>
+<forced_lib>System.Web.UI.WebControls.Adapters</forced_lib>
+<forced_lib>System.Web.UI.WebControls.WebParts</forced_lib>
+<forced_lib>System.Web.Util</forced_lib>
+<forced_lib>System.Windows</forced_lib>
+<forced_lib>System.Windows.Annotations</forced_lib>
+<forced_lib>System.Windows.Annotations.Storage</forced_lib>
+<forced_lib>System.Windows.Automation</forced_lib>
+<forced_lib>System.Windows.Automation.Peers</forced_lib>
+<forced_lib>System.Windows.Automation.Provider</forced_lib>
+<forced_lib>System.Windows.Automation.Text</forced_lib>
+<forced_lib>System.Windows.Controls</forced_lib>
+<forced_lib>System.Windows.Controls.Primitives</forced_lib>
+<forced_lib>System.Windows.Converters</forced_lib>
+<forced_lib>System.Windows.Data</forced_lib>
+<forced_lib>System.Windows.Documents</forced_lib>
+<forced_lib>System.Windows.Documents.Serialization</forced_lib>
+<forced_lib>System.Windows.Forms</forced_lib>
+<forced_lib>System.Windows.Forms.ComponentModel.Com2Interop</forced_lib>
+<forced_lib>System.Windows.Forms.Design</forced_lib>
+<forced_lib>System.Windows.Forms.Design.Behavior</forced_lib>
+<forced_lib>System.Windows.Forms.Integration</forced_lib>
+<forced_lib>System.Windows.Forms.Layout</forced_lib>
+<forced_lib>System.Windows.Forms.PropertyGridInternal</forced_lib>
+<forced_lib>System.Windows.Forms.VisualStyles</forced_lib>
+<forced_lib>System.Windows.Ink</forced_lib>
+<forced_lib>System.Windows.Ink.AnalysisCore</forced_lib>
+<forced_lib>System.Windows.Input</forced_lib>
+<forced_lib>System.Windows.Input.StylusPlugIns</forced_lib>
+<forced_lib>System.Windows.Interop</forced_lib>
+<forced_lib>System.Windows.Markup</forced_lib>
+<forced_lib>System.Windows.Markup.Localizer</forced_lib>
+<forced_lib>System.Windows.Markup.Primitives</forced_lib>
+<forced_lib>System.Windows.Media</forced_lib>
+<forced_lib>System.Windows.Media.Animation</forced_lib>
+<forced_lib>System.Windows.Media.Converters</forced_lib>
+<forced_lib>System.Windows.Media.Effects</forced_lib>
+<forced_lib>System.Windows.Media.Imaging</forced_lib>
+<forced_lib>System.Windows.Media.Media3D</forced_lib>
+<forced_lib>System.Windows.Media.Media3D.Converters</forced_lib>
+<forced_lib>System.Windows.Media.TextFormatting</forced_lib>
+<forced_lib>System.Windows.Navigation</forced_lib>
+<forced_lib>System.Windows.Resources</forced_lib>
+<forced_lib>System.Windows.Shapes</forced_lib>
+<forced_lib>System.Windows.Threading</forced_lib>
+<forced_lib>System.Windows.Xps</forced_lib>
+<forced_lib>System.Windows.Xps.Packaging</forced_lib>
+<forced_lib>System.Windows.Xps.Serialization</forced_lib>
+<forced_lib>System.Workflow.Activities</forced_lib>
+<forced_lib>System.Workflow.Activities.Configuration</forced_lib>
+<forced_lib>System.Workflow.Activities.Rules</forced_lib>
+<forced_lib>System.Workflow.Activities.Rules.Design</forced_lib>
+<forced_lib>System.Workflow.ComponentModel</forced_lib>
+<forced_lib>System.Workflow.ComponentModel.Compiler</forced_lib>
+<forced_lib>System.Workflow.ComponentModel.Design</forced_lib>
+<forced_lib>System.Workflow.ComponentModel.Serialization</forced_lib>
+<forced_lib>System.Workflow.Runtime</forced_lib>
+<forced_lib>System.Workflow.Runtime.Configuration</forced_lib>
+<forced_lib>System.Workflow.Runtime.DebugEngine</forced_lib>
+<forced_lib>System.Workflow.Runtime.Hosting</forced_lib>
+<forced_lib>System.Workflow.Runtime.Tracking</forced_lib>
+<forced_lib>System.Xml</forced_lib>
+<forced_lib>System.Xml.Linq</forced_lib>
+<forced_lib>System.Xml.Schema</forced_lib>
+<forced_lib>System.Xml.Serialization</forced_lib>
+<forced_lib>System.Xml.Serialization.Advanced</forced_lib>
+<forced_lib>System.Xml.Serialization.Configuration</forced_lib>
+<forced_lib>System.Xml.XPath</forced_lib>
+<forced_lib>System.Xml.Xsl</forced_lib>
+<forced_lib>System.Xml.Xsl.Runtime</forced_lib>
+<forced_lib>UIAutomationClientsideProviders</forced_lib>
+<forced_lib>__builtin__</forced_lib>
+<forced_lib>_bytesio</forced_lib>
+<forced_lib>_codecs</forced_lib>
+<forced_lib>_collections</forced_lib>
+<forced_lib>_ctypes</forced_lib>
+<forced_lib>_ctypes_test</forced_lib>
+<forced_lib>_fileio</forced_lib>
+<forced_lib>_functools</forced_lib>
+<forced_lib>_heapq</forced_lib>
+<forced_lib>_locale</forced_lib>
+<forced_lib>_md5</forced_lib>
+<forced_lib>_random</forced_lib>
+<forced_lib>_sha</forced_lib>
+<forced_lib>_sha256</forced_lib>
+<forced_lib>_sha512</forced_lib>
+<forced_lib>_sre</forced_lib>
+<forced_lib>_ssl</forced_lib>
+<forced_lib>_struct</forced_lib>
+<forced_lib>_warnings</forced_lib>
+<forced_lib>_weakref</forced_lib>
+<forced_lib>_winreg</forced_lib>
+<forced_lib>array</forced_lib>
+<forced_lib>binascii</forced_lib>
+<forced_lib>cPickle</forced_lib>
+<forced_lib>cStringIO</forced_lib>
+<forced_lib>clr</forced_lib>
+<forced_lib>cmath</forced_lib>
+<forced_lib>copy_reg</forced_lib>
+<forced_lib>datetime</forced_lib>
+<forced_lib>email</forced_lib>
+<forced_lib>errno</forced_lib>
+<forced_lib>exceptions</forced_lib>
+<forced_lib>future_builtins</forced_lib>
+<forced_lib>gc</forced_lib>
+<forced_lib>hashlib</forced_lib>
+<forced_lib>imp</forced_lib>
+<forced_lib>itertools</forced_lib>
+<forced_lib>marshal</forced_lib>
+<forced_lib>math</forced_lib>
+<forced_lib>nt</forced_lib>
+<forced_lib>operator</forced_lib>
+<forced_lib>os</forced_lib>
+<forced_lib>os.path</forced_lib>
+<forced_lib>pytest</forced_lib>
+<forced_lib>re</forced_lib>
+<forced_lib>select</forced_lib>
+<forced_lib>socket</forced_lib>
+<forced_lib>sys</forced_lib>
+<forced_lib>thread</forced_lib>
+<forced_lib>time</forced_lib>
+<forced_lib>xxsubtype</forced_lib>
+</xml>
+
+	at org.python.pydev.core.log.Log.logInfo(Log.java:66)
+	at org.python.pydev.ui.pythonpathconf.AbstractInterpreterEditor.getNewInputObject(AbstractInterpreterEditor.java:977)
+	at org.python.copiedfromeclipsesrc.PythonListEditor.addPressed(PythonListEditor.java:132)
+	at org.python.copiedfromeclipsesrc.PythonListEditor$1.widgetSelected(PythonListEditor.java:223)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:221)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:382)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:236)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.python.pydev.shared_core 1 1 2014-07-16 14:52:45.175
+!MESSAGE Restoring info for: C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe
+!STACK 0
+java.lang.RuntimeException: Restoring info for: C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:517)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:337)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:641)
+	at org.python.pydev.ui.pythonpathconf.AbstractInterpreterPreferencesPage$3.run(AbstractInterpreterPreferencesPage.java:262)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.io.IOException: Expecting: C:\Users\KRNJ\Dropbox\Phd\Python\Workspace\.metadata\.plugins\org.python.pydev\v1_5ankzzuc17bbrc0t9j7ix5xd\modulesKeys to exist (and be a file).
+	at org.python.pydev.editor.codecompletion.revisited.ModulesManager.loadFromFile(ModulesManager.java:288)
+	at org.python.pydev.editor.codecompletion.revisited.SystemModulesManager.load(SystemModulesManager.java:371)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:515)
+	... 4 more
+
+!ENTRY org.python.pydev.shared_core 1 1 2014-07-16 14:52:45.514
+!MESSAGE Finished restoring information for: C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe at: C:\Users\KRNJ\Dropbox\Phd\Python\Workspace\.metadata\.plugins\org.python.pydev\v1_5ankzzuc17bbrc0t9j7ix5xd
+!STACK 0
+java.lang.RuntimeException: Finished restoring information for: C:\Program Files (x86)\IronPython 2.6 for .NET 4.0\ipy.exe at: C:\Users\KRNJ\Dropbox\Phd\Python\Workspace\.metadata\.plugins\org.python.pydev\v1_5ankzzuc17bbrc0t9j7ix5xd
+	at org.python.pydev.core.log.Log.logInfo(Log.java:66)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:562)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:337)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:641)
+	at org.python.pydev.ui.pythonpathconf.AbstractInterpreterPreferencesPage$3.run(AbstractInterpreterPreferencesPage.java:262)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.python.pydev.shared_core 4 4 2014-07-16 14:52:45.660
+!MESSAGE Info: Rebuilding internal caches: C:\Users\KRNJ\Dropbox\Phd\Python\Workspace\.metadata\.plugins\com.python.pydev.analysis\ironpython_v1_5ankzzuc17bbrc0t9j7ix5xd\ironpython.pydevsysteminfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2014-07-16 14:54:18.858
+!MESSAGE Python not configured.
+!STACK 0
+org.python.pydev.core.NotConfiguredInterpreterException: Python not configured.
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getDefaultInterpreterInfo(AbstractInterpreterManager.java:243)
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1196)
+	at org.python.pydev.plugin.nature.PythonPathNature.getVariableSubstitution(PythonPathNature.java:505)
+	at org.python.pydev.plugin.nature.PythonPathNature.getVariableSubstitution(PythonPathNature.java:489)
+	at org.python.pydev.core.docutils.StringSubstitution.<init>(StringSubstitution.java:42)
+	at org.python.pydev.plugin.nature.PythonPathNature.getOnlyProjectPythonPathStr(PythonPathNature.java:163)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2014-07-16 14:54:18.867
+!MESSAGE Info: Rebuilding internal caches: C:\Users\KRNJ\Dropbox\Phd\Python\Workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TestGHironPy\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-07-16 14:54:20.322
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-07-16 14:54:20.322
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\KRNJ'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2014-07-17 09:35:44.954
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-17 09:35:44.954
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@724cfecb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Global Tokens (Global),
+		Python Show Global Tokens (Global),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1cebfc0d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.python.pydev.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.python.pydev.editor.actions.pyShowBrowser,Python Show Global Tokens (Editor),
+		Python Show Global Tokens (Editor),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@48f0c850,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.python.pydev.ui.editor.scope,,,system)

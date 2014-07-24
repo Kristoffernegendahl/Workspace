@@ -1,0 +1,17 @@
+'''
+Created on 16/07/2014
+
+@author: krnj
+'''
+
+import rhinoscriptsyntax as rs
+
+def midPoint(p1,p2):
+    mPt = (p1+p2)/2
+    return mPt
+
+if pt1 and pt2:
+    pt1 = rs.coerce3dpoint(pt1)
+    pt2 = rs.coerce3dpoint(pt2)
+    
+    a = midPoint(pt1,pt2)
